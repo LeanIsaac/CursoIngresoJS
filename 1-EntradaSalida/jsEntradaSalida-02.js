@@ -6,7 +6,7 @@ buen uso de las variables declararlas pero no asignarlas */
 function mostrar()
 {
    //declaro la variable
-   let nombreIngresado;
+   let nombreIngresado; 
 
    //guardo el nombre
 	nombreIngresado = prompt("ingresa tu nombre");
