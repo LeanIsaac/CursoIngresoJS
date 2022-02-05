@@ -6,9 +6,10 @@ function mostrar()
 {
 let nombreIngresado;
 nombreIngresado = prompt("ingrese su nombre");
-document.getElementById('txtIdNombre').value = nombreIngresado;
+document.getElementById('txtIdNombre').value = nombreIngresado; 
 
 //alert("su nombre es: "nombreIngresado);
 
 }
 
+ 
