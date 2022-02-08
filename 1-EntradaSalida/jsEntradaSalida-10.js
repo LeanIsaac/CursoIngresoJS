@@ -19,15 +19,28 @@ function mostrarAumento()
 
 	let importeConDescuento;
 
+	let porcentaje
+
 	importe = document.getElementById('txtIdImporte').value;
 
 	importe = parseInt(importe);
 
-	DescuentoAlImporte = importe *0.25;
+	//debo pedir porcentaje por prompt
+	porcentaje = prompt("Ingrese porcentaje");
+
+	porcentaje = parseInt(porcentaje);
+
+
+	DescuentoAlImporte = importe *21/100;
 
 	importeConDescuento = importe - DescuentoAlImporte;
 
-	document.getElementById('txtIdResultado').value = importeConDescuento;
+	//mostrar por alert 
+
+
+	
+
+	//document.getElementById('txtIdResultado').value = importeConDescuento;
 
 
 }
