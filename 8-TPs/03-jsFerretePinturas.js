@@ -32,4 +32,4 @@ function CentigradosFahrenheit ()
 
 }
 
-// txtIdTemperatura .
+// txtIdTemperatura
